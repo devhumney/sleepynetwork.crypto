@@ -1,0 +1,450 @@
+@viewport{
+    width: device-width;
+}
+
+
+button {
+    border: none;
+    color: white;
+    padding: 5px;
+  margin: auto;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+   padding-top: 33;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', cursive;
+    background: black;
+}
+
+
+
+button:hover {
+    background:  color: -webkit-animation: rainbow 1s infinite;
+    -ms-animation: rainbow 1s infinite;
+    -o-animation: rainbow 1s infinite;
+    animation: rainbow 1s infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        color: #ff0000;
+    }
+    10% {
+        color: #ff8000;
+    }
+    20% {
+        color: #ffff00;
+    }
+    30% {
+        color: #80ff00;
+    }
+    40% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ff80;
+    }
+    60% {
+        color: #00ffff;
+    }
+    70% {
+        color: #0080ff;
+    }
+    80% {
+        color: #0000ff;
+    }
+    90% {
+        color: #8000ff;
+    }
+    100% {
+        color: #ff0080;
+    }
+}
+
+@-ms-keyframes rainbow {
+    0% {
+        color: #ff0000;
+    }
+    10% {
+        color: #ff8000;
+    }
+    20% {
+        color: #ffff00;
+    }
+    30% {
+        color: #80ff00;
+    }
+    40% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ff80;
+    }
+    60% {
+        color: #00ffff;
+    }
+    70% {
+        color: #0080ff;
+    }
+    80% {
+        color: #0000ff;
+    }
+    90% {
+        color: #8000ff;
+    }
+    100% {
+        color: #ff0080;
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        color: #ff0000;
+    }
+    10% {
+        color: #ff8000;
+    }
+    20% {
+        color: #ffff00;
+    }
+    30% {
+        color: #80ff00;
+    }
+    40% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ff80;
+    }
+    60% {
+        color: #00ffff;
+    }
+    70% {
+        color: #0080ff;
+    }
+    80% {
+        color: #0000ff;
+    }
+    90% {
+        color: #8000ff;
+    }
+    100% {
+        color: #ff0080;
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        color: #ff0000;
+    }
+    10% {
+        color: #ff8000;
+    }
+    20% {
+        color: #ffff00;
+    }
+    30% {
+        color: #80ff00;
+    }
+    40% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ff80;
+    }
+    60% {
+        color: #00ffff;
+    }
+    70% {
+        color: #0080ff;
+    }
+    80% {
+        color: #0000ff;
+    }
+    90% {
+        color: #8000ff;
+    }
+    100% {
+        color: #ff0080;
+    }
+    ;
+
+}
+
+
+body {
+    overflow: hidden;
+width: 100vw;
+height: 100vh;
+    font-size: 75px;
+    font-family: 'Press Start 2P', cursive;
+    background: black;
+}
+
+
+
+video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+nav {
+    display: inline;
+    margin-bottom: 0px;
+    margin-left: 500px;
+}
+
+.newnav {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 10px;
+    margin-left: 780px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    font-size: 15px;
+    left: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav a:hover {
+    font-size: 17px;
+    color: #39FF14;
+}
+
+.none {
+    display: none;
+    width: 100%;
+}
+
+
+
+a:hover+.none,
+.none:hover {
+    display: block;
+    position: relative;
+    z-index: 100;
+    
+}
+
+.coming:hover {
+    background: red;
+}
+
+.pay-button {
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.pay-button:hover {
+    background: limegreen;
+    color: -webkit-animation: rainbow 1s infinite;
+    -ms-animation: rainbow 1s infinite;
+    -o-animation: rainbow 1s infinite;
+    animation: rainbow 1s infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        color: #ff0000;
+    }
+    10% {
+        color: #ff8000;
+    }
+    20% {
+        color: #ffff00;
+    }
+    30% {
+        color: #80ff00;
+    }
+    40% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ff80;
+    }
+    60% {
+        color: #00ffff;
+    }
+    70% {
+        color: #0080ff;
+    }
+    80% {
+        color: #0000ff;
+    }
+    90% {
+        color: #8000ff;
+    }
+    100% {
+        color: #ff0080;
+    }
+}
+
+@-ms-keyframes rainbow {
+    0% {
+        color: #ff0000;
+    }
+    10% {
+        color: #ff8000;
+    }
+    20% {
+        color: #ffff00;
+    }
+    30% {
+        color: #80ff00;
+    }
+    40% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ff80;
+    }
+    60% {
+        color: #00ffff;
+    }
+    70% {
+        color: #0080ff;
+    }
+    80% {
+        color: #0000ff;
+    }
+    90% {
+        color: #8000ff;
+    }
+    100% {
+        color: #ff0080;
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        color: #ff0000;
+    }
+    10% {
+        color: #ff8000;
+    }
+    20% {
+        color: #ffff00;
+    }
+    30% {
+        color: #80ff00;
+    }
+    40% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ff80;
+    }
+    60% {
+        color: #00ffff;
+    }
+    70% {
+        color: #0080ff;
+    }
+    80% {
+        color: #0000ff;
+    }
+    90% {
+        color: #8000ff;
+    }
+    100% {
+        color: #ff0080;
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        color: #ff0000;
+    }
+    10% {
+        color: #ff8000;
+    }
+    20% {
+        color: #ffff00;
+    }
+    30% {
+        color: #80ff00;
+    }
+    40% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ff80;
+    }
+    60% {
+        color: #00ffff;
+    }
+    70% {
+        color: #0080ff;
+    }
+    80% {
+        color: #0000ff;
+    }
+    90% {
+        color: #8000ff;
+    }
+    100% {
+        color: #ff0080;
+    }
+    
+}
+
+canvas {
+    position: absolute;
+    width: auto;
+    height: auto;
+left: 0;
+top: 0;
+    z-index: -1;
+} 
+
+
+
+
+/*WIDESCREEN*/
+
+        .small-title{
+    color: white;
+    position: relative;
+    margin-left: 15vw ;
+    top: 10vh ;
+    margin-top:0 ;
+}
+.title{
+    color: black;
+    width: 100vw;
+   text-align: center;
+}
+
+
+.title:hover{    
+    color:lime;
+};    
+
+
+/*MOBILE*/
+@media (max-width: 480px) and (min-width: 300px){
+
+    .small-title{
+        color: #0000ff;
+    }
+
+    .title{
+        color: lime;
+
+        }
+
+}
